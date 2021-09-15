@@ -1,0 +1,51 @@
+.overview {
+  width: 40%;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &__card {
+    * {
+      margin: 0;
+    }
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    svg {
+      height: 2rem;
+      width: 2rem;
+      color: gray;
+    }
+    &__tag {
+      font-size: 14px;
+      width: 7rem;
+      margin-left: -15px;
+    }
+    &__count {
+      font-size: 1.5rem;
+    }
+  }
+  &__box {
+    align-items: center;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    &__icon{
+      svg{
+        color:#55CCC1;
+      }
+      
+    }
+  }
+  &__unit{
+    font-size: 10px;
+    align-self: end;
+    color: gray;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .overview {
+    width: 100%;
+  }
+}

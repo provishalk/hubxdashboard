@@ -1,0 +1,33 @@
+.dashboard {
+  height: 100vh;
+  background-color: #f5f5f5;
+  &__child-div {
+    background-color: white;
+  }
+  &__split-card {
+    display: flex;
+    margin-top: 4px;
+    background-color: white;
+  }
+  &__lists {
+    display: flex;
+    justify-content: space-around;
+    &__list {
+      width: 24.6%;
+      border-radius: 4px;
+    }
+  }
+}
+@media only screen and (max-width: 850px) {
+  .dashboard {
+    &__split-card {
+      display: block;
+    }
+    &__lists {
+      display: block;
+      &__list {
+        width: 100%;
+      }
+    }
+  }
+}

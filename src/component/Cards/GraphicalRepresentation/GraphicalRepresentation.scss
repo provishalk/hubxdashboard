@@ -1,0 +1,62 @@
+.graphical-representation {
+  width: 60%;
+  &__container {
+    padding: 4px;
+    &__navbar {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      display: flex;
+      overflow: auto;
+      &__brand {
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        &__btn-logo {
+          width: 1.7rem;
+          height: 1.7rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            color: black;
+          }
+        }
+        &__btn-label {
+          margin-left: 4px;
+          align-self: center;
+        }
+      }
+      &__list {
+        margin-left: auto;
+        display: flex;
+        cursor: pointer;
+        &__items {
+          margin-right: 1rem;
+          height: 34px;
+          display: flex;
+          align-items: center;
+        }
+        select {
+          border-radius: 18px;
+          background-color: #ebebeb;
+          border: none;
+          padding-left: 8px;
+          padding-right: 4px;
+          padding-bottom: 2px;
+        }
+      }
+    }
+  }
+  &__right-container {
+    width: 40%;
+    padding: 4px;
+  }
+  &__graph{
+    height: 12rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .graphical-representation{
+    width: 100%;
+  }
+}
