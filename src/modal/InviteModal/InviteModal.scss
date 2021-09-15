@@ -1,0 +1,83 @@
+.invite-modal {
+  &__header {
+    display: flex;
+    width: 100%;
+    h5 {
+      text-align: center;
+    }
+    &__invite {
+      width: 50%;
+    }
+    &__calculator {
+      width: 50%;
+    }
+  }
+  &__body {
+    display: flex;
+    width: 100%;
+    &__invite {
+      min-height: 15rem;
+      padding: 16px;
+      width: 50%;
+      form{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      &__input-container{
+        width: 100%;
+        padding-top: 2rem;
+      }
+      &__btn-container{
+        display: flex;
+        width: 100%;
+      }
+      &__invite-btn {
+        background-color: #55CCC1;
+        border: none;
+        color: white;
+        font-size: 18px;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: 8px;
+        height: 2rem;
+        margin-right: 1rem;
+      }
+      &_counter{
+        display: flex;
+        justify-content: space-between;
+        &__label{
+          margin: 0;
+        }
+        &__count{
+          margin-right: 8px;
+          margin-bottom: 0;
+        }
+      }
+    }
+    &__calculator {
+      padding: 16px;
+      width: 50%;
+    }
+    &__duration-range::-webkit-slider-thumb {
+      
+      background: #55CCC1;
+      
+    }
+  }
+  &__close-btn{
+    background-color: #55CCC1;
+    color: white;
+  }
+  &__price_container{
+    display: flex;
+    justify-content: center;
+    h5{
+      display: flex;
+      margin-left: 4px;
+      svg{
+        margin-top: 3px;
+      }
+    }
+  }
+}

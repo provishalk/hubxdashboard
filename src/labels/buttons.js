@@ -9,3 +9,5 @@ export const REVENUE = "Revenue";
 export const PRODUCT_SALES = "Product sales";
 export const ACTIVE_LEARNERS = "Active learners";
 export const SEE_ALL ="see all";
+export const INVITE = "Invite";
+export const UPGRADE = "Upgrade now! >>"

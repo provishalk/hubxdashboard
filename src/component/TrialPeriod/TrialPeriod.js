@@ -1,5 +1,6 @@
 import React from "react";
 import { IoHourglassOutline } from "react-icons/io5";
+import { UPGRADE } from "../../labels/buttons";
 import "./TrialPeriod.scss";
 const TrialPeriod = () => {
   return (
@@ -16,7 +17,7 @@ const TrialPeriod = () => {
           <IoHourglassOutline />
         </div>
         <div className="trial-period__btn-container">
-          <button className="trial-period__upgrade-btn">Upgrade now! {">>"}</button>
+          <button className="trial-period__upgrade-btn">{UPGRADE}</button>
         </div>
       </div>
     </div>
